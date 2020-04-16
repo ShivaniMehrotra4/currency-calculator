@@ -8,7 +8,7 @@ pipeline {
 			}
 		}
 
-		stage('Package - Stage 2') {
+		stage('Package - Stage-s 2') {
 			steps {
 				echo 'packaging is carried out here.'
 				
