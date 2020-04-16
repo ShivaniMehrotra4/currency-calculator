@@ -8,14 +8,7 @@ pipeline {
 			}
 		}
 
-		stage('Test - Stage 2') {
-			steps {
-				echo 'testing is carried out here.'
-				sh 'mvn test'
-			}
-		}
-
-		stage('Package - Stage 3') {
+		stage('Package - Stage 2') {
 			steps {
 				echo 'packaging is carried out here.'
 				sh 'mvn package'
